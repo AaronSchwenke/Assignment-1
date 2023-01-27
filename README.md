@@ -1,9 +1,9 @@
 # Assignment-1
 
 ## Compile/Run Instructions
-Type the following lines into the command line while in the same directory as the project:
-javac Primes.java
-java Primes
+Type the following lines into the command line while in the same directory as the project:<br/>
+javac Primes.java<br/>
+java Primes<br/>
 
 ## Proof of Correctness
 To confirm the correctness of the concurrent prime calculations, I compared the outputted prime count and largest prime values to those that are available online such as on http://compoasso.free.fr/primelistweb/page/prime/liste_online_en.php. I also made a nonconcurrent version of the assignment to compare the outputted values to, including the sum of the primes. Primes.java was tested multiple times with the same results (barring execution time).
